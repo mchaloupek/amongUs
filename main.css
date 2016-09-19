@@ -1,27 +1,46 @@
 .container{
   display: flex;
-  position: absolute;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+html{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Snail_diagram-en_edit1.svg/1280px-Snail_diagram-en_edit1.svg.png);
 }
 .hello{
   height: 300px;
   width: 400px;
-  background-color: yellow;
   background-image: url(http://www.picgifs.com/graphics/s/snails/graphics-snails-107789.gif);
-  background-repeat: repeat;
 }
 
 .next{
   height:700px;
   width: 500px;
-  background-color: red;
   background-image: url(https://33.media.tumblr.com/e1172867f862a90e0dfe772060c242f7/tumblr_mg09fdFVGr1rmu6i5o1_500.gif);
-  background-repeat: repeat;
 }
 
 .whoa{
   height: 500px;
   width: 400px;
-  background-color: green;
   background-image: url(http://www.animatedimages.org/data/media/269/animated-snail-image-0013.gif);
+}
+
+.more{
+  height:300px;
+  width:200px;
+  background-image: url(http://www.animatedimages.org/data/media/269/animated-snail-image-0012.gif);
+}
+
+.evenmore{
+  height:100px;
+  width:900px;
+  background-image: url(http://www.gifs-paradise.com/animations/animated-gifs-snail-39.gif);
+}
+
+#snails{
   background-repeat: repeat;
+  border: 5px dotted black;
+  background-color: #D1E8F0;
+  opacity: 0.8;
 }
